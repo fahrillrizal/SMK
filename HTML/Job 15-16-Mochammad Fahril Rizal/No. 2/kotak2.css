@@ -1,0 +1,14 @@
+.kotak1{
+    margin: auto;
+    width: 50%;
+    height: 100px;
+    border-style: outset;
+    border-color: black;
+}
+.kotak2{
+    margin: auto;
+    width: 50%;
+    height: 100px;
+    border-style: outset;
+    border-color: gray;
+}

@@ -1,0 +1,23 @@
+#menu{
+    position: relative; 
+    width: 303px; 
+    height: 20px; 
+    border: 1px solid steelblue;
+}
+#menu ul{
+    padding: 0px; 
+    margin: 0px; 
+}
+#menu ul li{
+    float: left;
+}
+#menu ul li a{
+    color: black; 
+    border-right: 1px dashed black; 
+    display: inline; 
+    font-weight: bold;
+}
+#menu ul li a:hover{
+    background: grey; 
+    color: wheat;
+}

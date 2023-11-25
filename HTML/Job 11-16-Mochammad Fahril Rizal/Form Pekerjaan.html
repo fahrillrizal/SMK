@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Form Pekerjaan</title>
+        <style>
+            fieldset{width:50%;margin:auto}
+        </style>
+    </head>
+    <body>
+        <form action="proses.php" method="GET">
+        <fieldset>
+            <legend>Pekerjaan</legend>
+            <table>    
+                <tr>
+                <td>Nama</td> 
+                <td><input type="text"></td>
+                </tr>
+                <tr>
+                <td>Sandi</td> 
+                <td><input type="password"></td>
+                </tr>
+                <tr>
+                <td>Jenis Kelamin</td> <td><select>
+                    <option></option>
+                    <option value="Laki-Laki">Laki-Laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                    </select></td>
+                </tr>
+                <tr>
+                <td>Tempat Tanggal Lahir</td> 
+                <td><input type="text"></td>
+                <td><input type="date"></td>
+                </tr>
+                <tr>
+                <td>Agama</td> <td><select>
+                    <option></option>
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katolik">Katolik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Buddha">Buddha</option>
+                    <option value="Konghucu">Konghucu</option>
+                    </select></td>
+                </tr>
+                <tr>    
+                    <td><button type="submit">Kirim</button>
+                    <button type="reset">Reset</button></td>
+                </tr>
+            </table>
+        </fieldset>
+        </form>
+    </body>
+</html>

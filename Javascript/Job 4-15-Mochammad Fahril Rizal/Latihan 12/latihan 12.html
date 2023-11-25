@@ -1,0 +1,20 @@
+<script src="../jquery.js"></script>
+<script>
+    $(document).ready(function()
+    {
+    var jogja=$('<li>Yogyakarta</li>');
+    var papua=$('<li>Papua</li>');
+    var subjudul=$('<h2>Pilih Tujuan Anda</h2>');
+    var penutup=$('<h3>Terima Kasih</h3>');
+    $('.lokasi').prepend(jogja);
+    $('.lokasi').append(papua);
+    $('.lokasi').before(subjudul);
+    $('.lokasi').after(penutup);
+    });
+    </script>
+<h1>Kemana kamu ingin pergi ?</h1>
+<ul class="wisata">
+    <li>Malang</li>
+    <li>Bali</li>
+    <li>NTT</li>
+</ul>

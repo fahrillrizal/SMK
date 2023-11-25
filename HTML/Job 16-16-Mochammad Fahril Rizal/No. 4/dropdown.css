@@ -1,0 +1,41 @@
+#menu{
+    position: relative;
+    width: 400px;
+    height: 30px;
+    border: 4px dashed black;
+}
+#menu ul{
+    padding: 0px;
+    margin: 0px;
+}
+#menu ul li{
+    float: left;
+}
+#menu ul li a{
+    float: left;
+    color: gray;
+    padding: 10px;
+    border-right: 1px black;
+    display: inline;
+    font-weight: bold;
+}
+#menu ul li a:hover{
+    background: cadetblue;
+    height: 10px;
+}
+#menu ul li ul{
+    display: none;
+}
+#menu ul li:hover ul{
+    display: block;
+    position: absolute;
+    top: 41px;
+    left: 0px;
+}
+#menu ul li:hover ul li a{
+    display: block;
+    background: steelblue;
+    color: blue;
+    width: 140px;
+    border-left: 1px solid black;
+}

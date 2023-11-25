@@ -1,0 +1,17 @@
+#menu ul{
+    width: 100px; 
+    line-height: 30px; 
+    margin: 0px; 
+    padding: 0px;
+}
+#menu ul li a{
+    display: block; 
+    color: black; 
+    background: beige; 
+    padding: 0 0 0 20px; 
+    border-bottom: 3px solid grey;
+}
+#menu ul li a:hover{
+    background: peachpuff; 
+    color: powderblue;
+}

@@ -1,0 +1,21 @@
+<script src="../jquery.js"></script>
+<script>
+    $(document).ready(function()
+    {
+        $("button").click(function()
+        {
+            $("#wisata > li").css("background-color", "grey");
+        });
+    });
+</script>
+<ul id="wisata">
+    <li>Bali</li>
+    <li>Jawa</li>
+    <ul>
+        <li>Jawa Timur</li>
+        <li>Jawa Tengah</li>
+        <li>Jawa Barat</li>
+    </ul>
+    <li>NTT</li>
+</ul>
+<button>Aksi</button>

@@ -1,0 +1,12 @@
+a:visited{
+    color: blue;
+}
+a:active{
+    color: skyblue;
+}
+a:link{
+    color: steelblue;
+}
+.top{
+    border: 1px grey;
+}

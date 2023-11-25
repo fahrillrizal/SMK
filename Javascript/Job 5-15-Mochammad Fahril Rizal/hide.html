@@ -1,0 +1,27 @@
+<script src="../jquery.js"></script>
+<script>
+    $(document).ready(function()
+    {
+        $('#kej').on('click', function(){
+            alert('Saya mau ke Jogja');
+        });
+        $('#hapusj').on('click', function(){
+            $('.j').remove();
+                alert('Jogja dihapus');
+            });
+        $('#hidej').on('click', function(){
+            $('.j').hide();
+        });
+    });
+</script>
+<h1>Kemana anda ingin pergi ?</h1>
+<ul class="lokasi">
+    <li class="j">
+        Jogja
+        <button id="kej">Gas</button>
+        <button id="hidej">H</button>
+        <button id="hapusj">X</button>
+    </li>
+    <li class="m">Malang</li>
+    <li class="s">Surabaya</li>
+</ul>

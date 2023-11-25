@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+            .abu{
+                color: gray;
+            }
+            .cyan{
+                color: cyan;
+            }
+        </style>
+        <script src="../jquery.js"></script>
+        <script>
+            $(document).ready(function()
+            {
+                $('.j').addClass('abu');
+                $('#ganti').on('click', function(){
+                    $('.j').removeClass('abu');
+                    $('.j').addClass('cyan');
+                });
+                $('#ganti2').on('click', function()
+                {
+                    $('.j').removeClass('cyan');
+                    $('.j').addClass('abu');
+                });
+            });  
+        </script>
+    </head>
+    <body>
+        <h1>Kemana anda ingin pergi ?</h1>
+        <ul class="lokasi">
+            <li class="j">Jogja</li>
+            <li class="m">Malang</li>
+            <li class="s">Surabaya</li>
+        </ul>
+        <button id="ganti">Jadi cyan</button>
+        <button id="ganti2">Jadi abu</button>
+    </body>
+</html>

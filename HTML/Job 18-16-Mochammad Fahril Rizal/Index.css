@@ -1,0 +1,73 @@
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+.header{
+    min-height: 50px;
+    text-align: center;
+}
+.logo img{
+    width: 200px;
+}
+.jumbotron{
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    background-image: url(https://i.pinimg.com/564x/ca/0f/55/ca0f55c5ca1710af10503feb29dd55c4.jpg);
+    background-size: cover;
+}
+.menu ul{
+    padding: 0px;
+}
+.menu ul li{
+    display: inline-block;
+    position: relative;
+}
+.menu ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+}
+ul.submenu{
+    background-color: white;
+    border: 1px solid gray;
+    text-align: left;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    display: none;
+}
+.menu ul li:hover ul.submenu{
+    display: block;
+}
+ul.submenu li{
+    display: block;
+}
+ul.submenu li a{
+    display: block;
+    padding: 5px 10px;
+}
+.content{
+    background-color: gray;
+    min-height: 500px;
+    overflow: auto;
+}
+.thumbnail{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    width: 225px;
+    margin: 10px;
+    float: left;
+}
+.thumbnail img{
+    width: 100%;
+}
+.footer{
+    background-color: darkgrey;
+    min-height: 5px;
+    padding: 20px;
+    text-align: center;
+}
